@@ -12,7 +12,7 @@ from PIL import Image
 # 
 #===============================================================================
 __all__ = ["sphere_to_decimal",
-           "exif"
+           "get_exif"
            ]
 
 def sphere_to_decimal(degrees, minutes, seconds):
